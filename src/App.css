@@ -1,11 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:900|Lato:700|Playfair+Display|Domine|Montserrat");
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+/* line 4, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
+:root {
+  --fontColor: #FFFFFF;
+  --coolblack: #000027;
+  --solidBlack: #000000;
+  --footerColor: #D3D3D3;
+  --shadowColor: #888888;
+  --backgroundColor: #ADD8E6; }
+
+/* line 14, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
 .App {
   text-align: center;
-}
+  background-color: var(--backgroundColor); }
 
+/* line 19, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
 .App-logo {
-  height: 40vmin;
-}
+  height: 40vmin; }
 
+/* line 23, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -14,9 +27,10 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color: white; }
 
+/* line 34, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
 .App-link {
-  color: #09d3ac;
-}
+  color: #09d3ac; }
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900|Lato:700|Playfair+Display|Domine|Montserrat');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+:root {
+  --fontColor: #FFFFFF;
+  --coolblack: #000027;
+  --solidBlack: #000000;
+  --footerColor: #D3D3D3;
+  --shadowColor: #888888;
+  --backgroundColor: #ADD8E6;
+  
+}
+
+.App {
+  text-align: center;
+  background-color: var(--backgroundColor);
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
