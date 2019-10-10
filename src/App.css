@@ -48,26 +48,23 @@
 
 /* line 6, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
 .App {
+  display: grid;
+  grid-template: 7fr 3fr 5fr 1fr/1fr;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  height: 500px;
+  width: 300px;
+  padding: 2px;
+  margin: 2px;
+  border: 3px solid red;
   text-align: center;
   background-color: var(--backgroundColor); }
 
-/* line 11, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
-.App-logo {
-  height: 40vmin; }
-
-/* line 15, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; }
-
-/* line 26, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
-.App-link {
-  color: #09d3ac; }
+/* line 14, /Users/adam/Desktop/My_Documents/Coding/Projects/weatherapp/src/App.scss */
+.topScreen, .hourlyScreen, .dailyScreen, .footer {
+  border: 3px solid blue;
+  width: 100%;
+  height: 100%; }
 
 /*# sourceMappingURL=App.css.map */
