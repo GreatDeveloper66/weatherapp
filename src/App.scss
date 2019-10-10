@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:900|Lato:700|Playfair+Display|Domine|Montserrat');
 @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+@import 'library.scss';
 
-:root {
-  --fontColor: #FFFFFF;
-  --coolblack: #000027;
-  --solidBlack: #000000;
-  --footerColor: #D3D3D3;
-  --shadowColor: #888888;
-  --backgroundColor: #ADD8E6;
-  
-}
 
 .App {
   text-align: center;
